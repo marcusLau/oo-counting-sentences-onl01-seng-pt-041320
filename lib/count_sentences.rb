@@ -16,6 +16,7 @@ class String
 
   def count_sentences
     result = self.split(".").count
+    binding.pry
     result.reject(&:empty?)
   end
 end
